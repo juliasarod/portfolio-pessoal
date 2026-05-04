@@ -6,8 +6,8 @@ Este é o meu portfólio pessoal desenvolvido para apresentar minhas habilidades
 O objetivo deste site é servir como uma central de informações sobre minha carreira na programação.
 
 ## 🛠️ Tecnologias Utilizadas
-* **HTML5:**
-* **CSS3:**
+* **HTML5**
+* **CSS3**
 
 ## 👩‍💻 Como visualizar
 Para visualizar o projeto localmente:
