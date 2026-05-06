@@ -6,20 +6,20 @@
     border: none;
     outline: none;
 }
- 
+
 html {
     font-size: 82.5%;
     font-family: "Poppins", sans-serif;
 }
- 
+
 body {
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
     background-color: #F2F2EB;
-    color:#402A22;
+    color: #402A22;
 }
- 
+
 header {
     margin-top: 20px;
     position: relative;
@@ -30,11 +30,11 @@ header {
     background-color: transparent;
     filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     align-items: center;
     z-index: 1000;
 }
- 
+
 nav a {
     font-size: 1.8rem;
     margin-left: 4rem;
@@ -43,18 +43,18 @@ nav a {
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
- 
+
 nav a:hover,
 nav a:active {
     color: #402A22;
     border-bottom: 3px solid #be8671;
 }
- 
+
 section {
     min-height: 100vh;
-padding: 8rem 9% 8rem;
+    padding: 8rem 9% 8rem;
 }
- 
+
 .inicio {
     margin-top: -40px;
     margin-bottom: 50px;
@@ -63,29 +63,29 @@ padding: 8rem 9% 8rem;
     align-items: center;
     gap: 8rem;
 }
- 
+
 .inicio .textoInicio h1 {
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
 }
- 
+
 .textoInicio h3 {
     font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color:#be8671;
+    color: #be8671;
 }
 
 .textoInicio p {
     font-size: 1.5rem;
     font-weight: 500;
 }
- 
+
 .imgInicio {
     border-radius: 50%;
 }
- 
+
 .imgInicio img {
     position: relative;
     width: 32vw;
@@ -94,123 +94,124 @@ padding: 8rem 9% 8rem;
     cursor: pointer;
     transition: 0.2s linear;
 }
- 
+
 .imgInicio img:hover {
     transform: scale(1.05);
 }
- 
 
-.skills{
-padding: 2rem 50px;
+
+.skills {
+    padding: 2rem 50px;
     margin-bottom: 0px;
 }
 
 .skills h2 {
-text-align: center;
-font-size: 35px;
+    text-align: center;
+    font-size: 35px;
     margin-bottom: 15px;
 }
 
-.skills .skillsTexto{
-text-align: center;
-font-size:25px;
-margin-bottom: 20px;
+.skills .skillsTexto {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
-.skills .ferramentas{
-    display:flex;
+.skills .ferramentas {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.skills .ferramentas .ferramenta{
-display: flex;
-justify-content: center;
-align-items: center;
-gap:10px;
-width:200px;
-padding:10px 20px;
-margin:10px;
-border:1.5px solid rgb(0, 0, 0);
-border-radius: 5px; 
-font-size:18px;
+.skills .ferramentas .ferramenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 18px;
 }
 
-.skills .ferramentas .ferramenta:hover{
+.skills .ferramentas .ferramenta:hover {
     border-color: #be8671;
 }
 
-.skills .ferramentas .ferramenta img{
-    width:50px;
-    height:50px;
+.skills .ferramentas .ferramenta img {
+    width: 50px;
+    height: 50px;
     object-fit: contain;
-    border-radius: 2px;;
+    border-radius: 2px;
+    ;
 }
 
-.contato{
-padding: 0 50px; 
+.contato {
+    padding: 0 50px;
     margin-top: -20px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     font-size: 25px;
 }
 
-.contato h2{
+.contato h2 {
     font-size: 35px;
 }
 
-.contato .textoContato{
-    display:flex;
-    gap:50px;
+.contato .textoContato {
+    display: flex;
+    gap: 50px;
 }
 
-.contato .textoContato p{
-    flex:3;
-    margin-top:20px;
-    color:#be8671;
+.contato .textoContato p {
+    flex: 3;
+    margin-top: 20px;
+    color: #be8671;
 }
 
-.contato .textoContato form{
-    flex:3;
-    display:flex;
+.contato .textoContato form {
+    flex: 3;
+    display: flex;
     flex-direction: column;
 }
 
 .contato .textoContato form input,
-.contato .textoContato form textarea{
-    border:2px solid #402A22;
+.contato .textoContato form textarea {
+    border: 2px solid #402A22;
     background-color: transparent;
-    padding:10px;
-    margin-bottom:15px;
-    outline:none;
-    resize:none;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
 }
 
-.contato .textoContato form .mensagemArea{
-    padding:60px;
+.contato .textoContato form .mensagemArea {
+    padding: 60px;
 }
 
 
 
-.contato .textoContato form button{
+.contato .textoContato form button {
     font-size: 16px;
-    color:#ffffff;
-    background-color:#402A22;
-    height:50px;
+    color: #ffffff;
+    background-color: #402A22;
+    height: 50px;
     margin-top: 15px;
-    margin-left:150px;
-    margin-right:150px;
-    cursor:pointer;
+    margin-left: 150px;
+    margin-right: 150px;
+    cursor: pointer;
 
 }
 
-.contato .textoContato form button:hover{
-   background-color:#be8671;
-   transition: 0.2s;
-   color:#241713;
+.contato .textoContato form button:hover {
+    background-color: #be8671;
+    transition: 0.2s;
+    color: #241713;
 }
 
-.skills + .contato {
-    margin-top: -100px; 
+.skills+.contato {
+    margin-top: -100px;
 }
 
 
@@ -223,25 +224,25 @@ padding: 0 50px;
         top: 100%;
         right: 0;
         width: 40%;
-        border-left: 3px solid ;
-        border-bottom: 3px solid ;
+        border-left: 3px solid;
+        border-bottom: 3px solid;
         border-bottom-left-radius: 2rem;
-        padding: 1rem; 
+        padding: 1rem;
         background-color: #161616;
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
         display: none;
     }
- 
+
     nav.active {
         display: block;
     }
- 
+
     nav a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
- 
+
     nav a:hover,
     nav a:active {
         padding: 1rem;
@@ -250,9 +251,9 @@ padding: 0 50px;
     }
 }
 
-@media (max-width: 1000px){
-    .inicio{
-        gap:4rem;
+@media (max-width: 1000px) {
+    .inicio {
+        gap: 4rem;
     }
 
 
@@ -270,7 +271,7 @@ padding: 0 50px;
 
     .inicio {
         margin-top: -100px;
-        flex-direction: column-reverse; 
+        flex-direction: column-reverse;
         text-align: center;
         gap: 2rem;
         padding-top: 10rem;
@@ -286,19 +287,18 @@ padding: 0 50px;
 
 
     .skills .ferramentas .ferramenta {
-        width: 140px; 
+        width: 140px;
         font-size: 14px;
     }
 
 
     .contato .textoContato {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 20px;
     }
 
-    .skills .ferramentas{
+    .skills .ferramentas {
         margin-bottom: 200px;
     }
 
 }
-
